@@ -1,0 +1,31 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Electron (Global)",
+            "type": "node",
+            "program": "${workspaceRoot}\\js\\main.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": "C:/Users/${env.USERNAME}/AppData/Roaming/npm/node_modules/electron-prebuilt/dist/electron.exe",
+            "runtimeArgs": [],
+            "env": [],
+            "sourceMaps": false,
+            "externalConsole": true
+        },
+        {
+            "name": "Electron (Project-Only)",
+            "type": "node",
+            "program": "${workspaceRoot}\\js\\main.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": "${workspaceRoot}/node_modules/electron-prebuilt/dist/electron.exe",
+            "runtimeArgs": [],
+            "env": {},
+            "sourceMaps": false,
+            "externalConsole": true
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "universe-mod-tool",
+    "version": "0.1.0",
+    "main": "main.js",
+	"productName": "Universe Modding Tool",
+    "description": "Modding tool for Universe",
+    "author": "iUltimateLP",
+    "devDependencies": {
+        "electron-prebuilt": "^1.1.1"
+    }
+}
