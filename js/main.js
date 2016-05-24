@@ -25,8 +25,6 @@ function initWindow()
     mainWindow.on("closed", function() {
         mainWindow = null;    
     });
-    
-    console.log("$(__dirname)");
 }
 
 app.on("ready", initWindow); //When Electron has done all it's stuff, init the window!

@@ -1,3 +1,4 @@
+/* Basic Containers */
 body {
     color: #CCCCCC;
     font-family: Roboto, "Helvetica Neue", "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Open Sans", sans-serif;
@@ -22,13 +23,10 @@ body {
     /*border-bottom: 1px solid #000000;*/
     box-shadow: 0 0 20px #000000;
     color: #EEEEEE;
-    padding: 15px 30px;
+    padding: 0; /*15px 30px*/
 }
 
-table, th, td {
-    border: 1px solid green;
-    border-collapse: collapse;
-}
+/* Main Menu Stuff*/
 
 .main-menu-container {
     flex: 1;
@@ -50,4 +48,52 @@ table, th, td {
 
 .main-menu-button:hover {
     background-color: #36434A;
+}
+
+/* Elements */
+
+.button {
+    background-color: #2D4E5E;
+    border: none;
+    color: white;
+    transition-duration: 0.2s;
+    outline: none;
+    box-shadow: 0 0 5px #000000;
+}
+
+.header-nav {
+    float: right;
+    margin-top: 0px;
+}
+
+.header-label {
+    float: left;
+    padding: 15px 30px;
+}
+
+.vertical-middle {
+    vertical-align: middle !important;
+}
+
+.header-nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.header-nav-list li {
+    float: left;
+}
+
+.header-nav-list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header-nav-list a:hover {
+    background-color: #29434F;
 }
